@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Operaciones</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <h1>Tabla de Operaciones</h1>
+    <table>
+        <thead>
+            <tr>
+                <th class="animate">Operación</th>
+                <th class="animate">Descripción</th>
+                <th class="animate">Botones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Multiplicación</td>
+                <td>Multiplica 2 números ingresados</td>
+                <td><button onclick="multiplicar()">Multiplicar</button></td>
+            </tr>
+            <tr>
+                <td>Exponente 2</td>
+                <td>Eleva al cuadrado 1 número ingresado</td>
+                <td><button onclick="elevar()">Elevar</button></td>
+            </tr>
+            <tr>
+                <td>Resta</td>
+                <td>Resta 2 números ingresados</td>
+                <td><button onclick="restar()">Restar</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <button onclick="location.href='index.html'" class="animated-btn">Inicio</button>
+    <button onclick="location.href='gallery.html'" class="animated-btn">Galería</button>
+</body>
+</html>
